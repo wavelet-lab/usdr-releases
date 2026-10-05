@@ -74,7 +74,7 @@ Do not install a package if checksum verification fails.
 Install the downloaded package using APT. For example:
 
 ```bash
-sudo apt install ./libcapi79xx_1.0.1~resolute0_amd64.deb
+sudo dpkg -i libcapi79xx_1.0.1~resolute0_amd64.deb
 ```
 
 APT will install the required dependencies automatically. Restart DSDR after
